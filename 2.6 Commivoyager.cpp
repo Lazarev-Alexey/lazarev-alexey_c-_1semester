@@ -82,14 +82,6 @@ void test()
 
 int main()
 {
-    double d = dfs(0, 0.0, 0);
-    if(d == -1)
-    {
-        std::cout << "The problem is unsolvable";
-    }
-    else
-    {
-        std::cout << d;
-    }
+    test();
     return 0;
 }
